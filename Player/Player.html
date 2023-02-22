@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneFootball-Player</title>
+    <link rel="icon" href="https://img.freepik.com/premium-vector/soccer-ball-icon-logo-template-football-logo-symbol_7649-4092.jpg?w=740" type = "image/icontype">
+    <link rel="stylesheet" href="PlayerStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    
+    <div class = "nav">
+        <a href="C:\Users\hp\OneDrive\Desktop\OneFootball Project\HomePage.html">Home</a>
+        <a class = "active" href="">Players</a>
+        <a href="C:\Users\hp\OneDrive\Desktop\OneFootball Project\Leagues\League.html">Leagues</a>
+        <a href="C:\Users\hp\OneDrive\Desktop\OneFootball Project\Matches\Matches.html">Matches</a>
+        <a href="C:\Users\hp\OneDrive\Desktop\OneFootball Project\Login\login.html">Login</a>
+    </div>
+    <div class = "main">
+        <h1 style="text-align:center;">ONEFOOTBALL</h1>
+    </div>
+
+
+    <h2 style="text-align: center;">Top Players</h2>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+    <table id="myTable" class = "table table-hover">
+        <script src="PlayerScript.js"></script>
+        <thead>
+            <tr class="header">
+                <th>S.No</th>
+                <th>Pic</th>
+                <th>Name</th>
+                <th>Club</th>
+                <th>Nationality</th>
+                <th>Age</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/711.vresize.350.350.medium.70.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Lionel Andrés Messi</td>
+                <td>Paris Saint-Germain</td>
+                <td>Argentina</td>
+                <td>35</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/885.vresize.350.350.medium.14.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Cristiano Ronaldo dos Santos Aveiro</td>
+                <td>Al Nassr</td>
+                <td>Portugal</td>
+                <td>38</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/713.vresize.350.350.medium.34.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Neymar da Silva Santos Júnior</td>
+                <td>Paris Saint-Germain</td>
+                <td>Brazil</td>
+                <td>31</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/66617.vresize.350.350.medium.77.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Erling Braut Haaland</td>
+                <td>Manchester City</td>
+                <td>Noraway</td>
+                <td>22</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/2342.vresize.350.350.medium.24.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Kevin De Bruyne</td>
+                <td>Manchester City</td>
+                <td>Belgium</td>
+                <td>31</td>
+                <td>Midfield</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/2100.vresize.350.350.medium.55.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Robert Lewandowski</td>
+                <td>FC Barcelona</td>
+                <td>Poland</td>
+                <td>34</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/40670.vresize.350.350.medium.91.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Kylian Mbappé Lottin</td>
+                <td>Paris Saint-Germain</td>
+                <td>France</td>
+                <td>24</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/224.vresize.350.350.medium.68.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Mohamed Salah Hamed Mahrous Ghaly</td>
+                <td>Liverpool</td>
+                <td>Egypt</td>
+                <td>30</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/880.vresize.350.350.medium.13.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Luka Modrić</td>
+                <td>Real Madrid</td>
+                <td>Croatia</td>
+                <td>37</td>
+                <td>Midfield</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/72375.vresize.350.350.medium.82.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Pedro González López</td>
+                <td>FC Barcelona</td>
+                <td>Spain</td>
+                <td>20</td>
+                <td>Midfield</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td><img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p116594.png" height="10%" width="10%" alt="Messi"></td>
+                <td>N'Golo Kanté</td>
+                <td>Chelsea</td>
+                <td>France</td>
+                <td>31</td>
+                <td>Midfield</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/3575.vresize.350.350.medium.68.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Virgil van Dijk</td>
+                <td>Liverpool</td>
+                <td>Netherlands</td>
+                <td>31</td>
+                <td>Defender</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/864.vresize.350.350.medium.48.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Karim Mostafa Benzema</td>
+                <td>Real Madrid</td>
+                <td>France</td>
+                <td>35</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td><img src="https://img.a.transfermarkt.technology/portrait/header/200512-1667830279.jpg?lm=1" height="10%" width="10%" alt="Messi"></td>
+                <td>Sadio Mané</td>
+                <td>Liverpool</td>
+                <td>Senegal</td>
+                <td>30</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/453.vresize.350.350.medium.69.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Harry Edward Kane</td>
+                <td>Tottenham Hotspur</td>
+                <td>England</td>
+                <td>29</td>
+                <td>Forward</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/884.vresize.350.350.medium.61.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Sergio Ramos García</td>
+                <td>Paris Saint-Germain</td>
+                <td>Spain</td>
+                <td>36</td>
+                <td>Defender</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/887.vresize.350.350.medium.48.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Raphaël Xavier Varane</td>
+                <td>Manchester United</td>
+                <td>France</td>
+                <td>29</td>
+                <td>Defender</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/4062.vresize.350.350.medium.49.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Thiago Emiliano da Silva</td>
+                <td>Chelsea</td>
+                <td>Brazil</td>
+                <td>28</td>
+                <td>Defender</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td><img src="https://pictures.tribuna.com/image/540b1ab6-8f03-42eb-a694-574f2ae51c86" height="10%" width="10%" alt="Messi"></td>
+                <td>Gerard Piqué Bernabeu</td>
+                <td>FC Barcelona</td>
+                <td>Spain</td>
+                <td>36</td>
+                <td>Defender</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><img src="https://b.fssta.com/uploads/application/soccer/headshots/63499.vresize.350.350.medium.24.png" height="10%" width="10%" alt="Messi"></td>
+                <td>Ronald Federico Araújo da Silva</td>
+                <td>FC Barcelona</td>
+                <td>Uruguay</td>
+                <td>23</td>
+                <td>Defender</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

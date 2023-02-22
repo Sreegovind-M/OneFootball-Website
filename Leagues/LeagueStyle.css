@@ -1,0 +1,26 @@
+.nav{
+    background-color:orange;
+    overflow:hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+.nav a {
+    float:left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover{
+    background-color:white;
+    color:black;
+}
+.nav a.active{
+    background-color: black;
+    color:white;
+}
+.main{
+    margin-top: 60px;
+}
